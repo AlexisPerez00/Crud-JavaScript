@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Alexis/Crud JS</title>
+
+    <link rel="stylesheet" href="/mi-crud/main.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="titulo">
+        <h3>
+          CRUD Vanilla Js
+        </h3>
+      </div>
+
+      <form action="" id="formCar">
+
+        <div class="addCar">
+
+          <div class="formulario">
+
+            <label for="name">Nombre: </label>
+            <input type="text" placeholder="Nombre del auto" id="name" />
+          
+          </div>
+
+          <div class="formulario">
+
+            <label for="modelo">Modelo: </label>
+            <input
+              type="text"
+              placeholder="Modelo del auto"
+              id="modelo"
+            />
+         
+          </div>    
+
+          <div class="formulario">
+
+            <label for="puertas">Puertas: </label>
+            <input
+              type="text"
+              placeholder="Numero de puertas del auto"
+              id="puertas"
+            />
+         
+          </div>
+
+          <div class="formulario">
+
+            <label for="color">Color: </label>
+            <input
+              type="text"
+              placeholder="Color del auto"
+              id="color"
+            />
+         
+          </div>
+
+          <div class="formulario">
+
+            <label for="marca">Marca: </label>
+            <input type="text" placeholder="Marca del auto" id="marca" />
+          
+          </div>
+
+        </div>
+
+        <button type="submit" class="submitBtn" id="submitBtn">
+          Guardar auto
+        </button>
+        <button type="button" class="updateBtn" id="updateBtnSubmit">
+          Editar auto
+        </button>
+
+      </form>
+
+      <div class="userList" id="userList"></div>
+
+    </div>
+
+    <script src="/mi-crud/main.js"></script>
+  </body>
+</html>

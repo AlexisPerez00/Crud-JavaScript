@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Martel', serif;}
+
+
+.titulo {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+#formCar {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.addCar {
+  width: 100%;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.formulario {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario label {
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+.formulario input {
+  border: 1px solid #eee56e;
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.submitBtn,
+.updateBtn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #f0e21d;
+  color: rgb(8, 8, 8);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.updateBtn {
+  display: none;
+}
+
+
+.userList {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.userItem {
+  width: 30vh;
+  margin: 10px 10px;
+  border: solid 1px black;
+}
+
+.userInfo {
+  width: 100%;
+
+  text-align: center;
+  background-color: rgb(250, 235, 101);
+  border: solid 2px rgb(1, 1, 26);
+}
+
+.userInfo h4 {
+  border: solid 1px rgb(12, 12, 12);
+  color: rgb(20, 1, 1);
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+}
+
+.actions button {
+  width: 50%;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.update {
+  background-color: #1900ff;
+}
+
+.delete {
+  background-color: #ff0000;
+}
